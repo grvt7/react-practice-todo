@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ensure the modal covers the entire viewport height */
+}
+
+.centered-content {
+    max-width: 80%;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.modal-card {
+    padding: 20px;
+}
+
+.modal-title {
+    margin-bottom: 4px;
+}
+
+.provider {
+    width: 100%;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+}
